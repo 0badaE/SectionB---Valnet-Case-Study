@@ -32,6 +32,7 @@ Outputs in `out/`: `answers.md` (15 answers with citations and how each was prod
 | `lib/assistant.mjs`, `lib/report.mjs`, `lib/text.mjs` | Setup, report writing, small helpers |
 | `eval/expected.json`, `eval/check-answer.mjs` | What each of the 15 answers must (not) do, and the checker |
 | `analysis/traffic-mix.mjs` | Section C1: classifies the 4,000 search queries (reusing the guards above); results in `out/traffic_mix.md` |
+| `analysis/cost-model.mjs` | Section C3: monthly spend for the plan vs all-Tier-M and all-Tier-L; output in `out/cost_model.txt` |
 
 ## How one message is answered (`lib/pipeline.mjs`)
 
