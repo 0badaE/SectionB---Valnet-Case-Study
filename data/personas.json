@@ -1,0 +1,78 @@
+{
+  "as_of_date": "2026-10-07",
+  "personas": [
+    {
+      "persona_id": "P1",
+      "display_name": "Marcus",
+      "branch": "Army",
+      "separation_date": "2019-06-30",
+      "discharge": "honorable",
+      "va_disability_rating": 30,
+      "state": "OH",
+      "dependents": 2,
+      "interests": [
+        "school",
+        "home loan"
+      ],
+      "personalization_opt_in": true
+    },
+    {
+      "persona_id": "P2",
+      "display_name": "Elena",
+      "branch": "Navy",
+      "separation_date": "2026-12-15",
+      "discharge": "pending",
+      "va_disability_rating": 0,
+      "state": "VA",
+      "dependents": 0,
+      "interests": [
+        "jobs",
+        "transition"
+      ],
+      "personalization_opt_in": true
+    },
+    {
+      "persona_id": "P3",
+      "display_name": "Dale",
+      "branch": "Air Force",
+      "separation_date": "2012-04-30",
+      "discharge": "honorable",
+      "va_disability_rating": 70,
+      "state": "TX",
+      "dependents": 3,
+      "interests": [
+        "healthcare"
+      ],
+      "personalization_opt_in": false
+    },
+    {
+      "persona_id": "P4",
+      "display_name": "Priya",
+      "branch": "Army",
+      "separation_date": "2014-09-15",
+      "discharge": "honorable",
+      "va_disability_rating": 0,
+      "state": "CA",
+      "dependents": 1,
+      "deployments": [
+        "Iraq 2007-2008"
+      ],
+      "interests": [
+        "healthcare"
+      ],
+      "personalization_opt_in": true
+    },
+    {
+      "persona_id": "P5",
+      "display_name": "Guest",
+      "branch": null,
+      "separation_date": null,
+      "discharge": null,
+      "va_disability_rating": null,
+      "state": null,
+      "dependents": null,
+      "interests": [],
+      "personalization_opt_in": false
+    }
+  ]
+}

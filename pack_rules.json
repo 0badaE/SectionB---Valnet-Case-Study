@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-07",
+  "_comment": "Editorial decisions the pipeline applies. Automated checks propose; a named owner decides. Each decision records why.",
+  "trust_tiers": { "official": 1, "first_party": 1, "editorial": 2 },
+  "excluded_source_types": {
+    "community": "Unverified user-generated content; useful only as a signal of which myths to correct.",
+    "partner_scraped": "Commercial partner page scraped without a content agreement; biased and not reviewable.",
+    "mirror_scraped": "Third-party copy of another source; always index the original."
+  },
+  "review_window_months": { "editorial": 18, "first_party": 18 },
+  "pinned": {
+    "D12": { "review_every_months": 3, "owner": "Trust & Safety", "why": "Crisis resources: an error here is the worst possible failure." },
+    "D23": { "review_every_months": 3, "owner": "Product / Legal", "why": "The assistant's own data policy; answers about privacy must match it exactly." }
+  },
+  "supersessions": {
+    "D03": { "superseded_by": ["D02", "D06"], "decision": "Says GI Bill benefits expire after 15 years for everyone (D02: no expiry if last discharge on/after 2013-01-01) and tells users to apply via eBenefits/DS Logon (D06: being retired). Also asserts '~30 days' processing with no source." },
+    "D07": { "superseded_by": ["D06"], "decision": "Directs users to eBenefits/DS Logon to track claims; D06 says those sign-ins are being retired and claim status lives on VA.gov." }
+  }
+}

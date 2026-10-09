@@ -1,0 +1,4 @@
+# Local tooling, not part of the deliverable
+.claude/
+node_modules/
+skills-lock.json
